@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+        background: black;
+        height: auto;
+      }
+      .circle {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background: white;
+        animation: bounce 8s linear infinite;
+      }
+      @keyframes bounce {
+        0% {left: 0px; top: 20px}
+        5% {left: 200px; top: 0px}
+        10% {left: 300px; top: 550px}
+        15% {left: 500px; top: 0px}
+        20% {left: 550px; top: 550px}
+        25% {left: 1100px; top: 0px}
+        30% {left: 1380px; top: 100px}
+        35% {left: 1300px; top: 0px}
+        40% {left: 600px; top: 550px}
+        45% {left: 200px; top: 0px}
+        50% {left: 0px; top: 100px}
+        55% {left: 400px; top: 0px}
+        60% {left: 1100px; top: 550px}
+        65% {left: 1380px; top: 300px}
+        70% {left: 0px; top: 300px}
+        75% {left: 1380px; top: 50px}
+        80% {left: 100px; top: 550px}
+        85% {left: 500px; top: 0px}
+        90% {left: 1100px; top: 550px}
+        95% {left: 600px; top: 0px}
+        100% {left: 0px; top: 20px}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="circle"></div>
+  </body>
+</html>
